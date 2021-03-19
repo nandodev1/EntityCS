@@ -4,7 +4,7 @@ namespace EntityCS.model
 {
     public class ClienteContext : DbContext
     {
-        public ClienteContext()
+        public ClienteContext():base("MyContext")
         {
             
         }
